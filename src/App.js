@@ -1,4 +1,12 @@
+import Navbar from "./components/Navbar";
+import CardContainer from "./components/CardContainer";
+
 function App() {
-  return <h2>Redux Toolkit</h2>;
+  return (
+    <main>
+      <Navbar/>
+      <CardContainer/>
+    </main>
+  );
 }
 export default App;
